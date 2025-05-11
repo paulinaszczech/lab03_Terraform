@@ -21,3 +21,15 @@ variable "publicly_visible" {
     default = false
     description = "Public visibility of repo"
 }
+
+variable "regions" {
+  description = "Lista regionów AWS"
+  type        = list(string)
+  default     = ["us-east-1", "us-west-2"]
+}
+
+variable "bucket_name_prefix" {
+  description = "Prefix dla nazw bucketów S3"
+  type        = string
+  default     = "multi-region-bucket"
+}
