@@ -5,3 +5,4 @@ terraform.tfstate.backup
 .terraform.lock.hcl
 terraform-multi-region/tfplan
 terraform-multi-region/var.regions
+terraform-multi-region/[var.regions]
